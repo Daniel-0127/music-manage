@@ -4,7 +4,7 @@
       <el-input style="width: 200px;" v-model="input" placeholder="筛选歌曲: " @keyup.enter="searchAll"/>
       <el-button style="margin-left: 10px" type="primary" @click="searchAll">搜索</el-button>
     </div>
-    <el-table :data="myData" style="width: 100%;height: 555px;overflow-y: auto;" border stripe
+    <el-table :data="myData" style="width: 100%;height: 545px;overflow-y: auto;" border stripe
               :header-cell-style="{textAlign:'center'}" :cell-style="{textAlign:'center'}"
               :row-style="{height: '46px'}">
       <el-table-column prop="id" label="ID" width="180"/>

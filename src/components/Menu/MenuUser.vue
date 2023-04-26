@@ -5,7 +5,7 @@
       <el-button style="margin-left: 10px" type="primary" @click="searchAll">搜索</el-button>
     </div>
 
-    <el-table :data="myData" style="width: 100%;height: 555px;overflow-y: auto;" :cell-style="{textAlign:'center'}"
+    <el-table :data="myData" style="width: 100%;height: 545px;overflow-y: auto;" :cell-style="{textAlign:'center'}"
               :header-cell-style="{textAlign:'center'}" stripe border>
       <el-table-column prop="id" label="ID" width="60"/>
       <el-table-column label="用户头像" width="120">
